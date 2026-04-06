@@ -1,21 +1,19 @@
-# opencode-install
+# ps1 - admin
 
-ps1
+> irm get.scoop.sh | iex
 
-irm get.scoop.sh | iex
-
-scoop --version
+> scoop --version
 
 
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+> Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
-scoop bucket add extras; scoop install extras/opencode-desktop
+> scoop bucket add extras; scoop install extras/opencode-desktop
 
-opencode --version
+> opencode --version
 
 #oh my opencode 
 
-powershell -c "irm bun.sh/install.ps1|iex"
+> powershell -c "irm bun.sh/install.ps1|iex"
 
-bunx oh-my-opencode install
+> bunx oh-my-opencode install
 
