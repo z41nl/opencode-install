@@ -9,6 +9,10 @@
 
 > scoop bucket add extras; scoop install extras/opencode-desktop
 
+or
+
+> scoop install opencode-desktop
+
 > opencode --version
 
 #oh my opencode 
