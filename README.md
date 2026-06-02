@@ -19,7 +19,7 @@ or
 
 > scoop install opencode-desktop
 
-#oh my opencode 
+#omo
 
 https://nodejs.org/en/download
 
@@ -27,3 +27,4 @@ https://nodejs.org/en/download
 
 > bunx oh-my-opencode install
 
+> bunx oh-my-openagent install
