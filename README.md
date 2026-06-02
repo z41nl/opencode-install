@@ -2,7 +2,13 @@
 
 > irm get.scoop.sh | iex
 
+or
+
+> iex "& {$(irm get.scoop.sh)} -RunAsAdmin"
+ 
 > scoop --version
+
+> scoop install git
 
 
 > Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
