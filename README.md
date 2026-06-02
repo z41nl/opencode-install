@@ -19,8 +19,6 @@ or
 
 > scoop install opencode-desktop
 
-> opencode --version
-
 #oh my opencode 
 
 > powershell -c "irm bun.sh/install.ps1|iex"
