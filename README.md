@@ -21,6 +21,8 @@ or
 
 #oh my opencode 
 
+https://nodejs.org/en/download
+
 > powershell -c "irm bun.sh/install.ps1|iex"
 
 > bunx oh-my-opencode install
