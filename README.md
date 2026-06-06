@@ -9,7 +9,10 @@
 or
 
 > iex "& {$(irm get.scoop.sh)} -RunAsAdmin"
- 
+
+
+new ps window
+
 > scoop --version
 
 > scoop install git
