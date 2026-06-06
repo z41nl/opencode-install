@@ -1,5 +1,9 @@
 # ps1 - admin
 
+
+> Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+
 > irm get.scoop.sh | iex
 
 or
@@ -9,9 +13,6 @@ or
 > scoop --version
 
 > scoop install git
-
-
-> Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 > scoop bucket add extras; scoop install extras/opencode-desktop
 
